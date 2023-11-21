@@ -1,0 +1,35 @@
+﻿:root{
+    --color-principal:#e0c2c0;  
+}
+
+.contenido{
+    height:100vh;
+    width:100%;
+}
+
+.img_media {
+    height: 100vh;
+    width: 100%;
+}
+
+.text-color{
+    color:var(--color-principal);
+}
+
+.btn-color {
+    color: var(--color-principal);
+    border-color: var(--color-principal) !important;
+}
+
+.btn-color:hover{
+    color: #000 !important;
+    background-color: var(--color-principal);
+    border: 1px solid #e0c2c0;
+}
+
+@media (max-width:768px){
+
+    #carousel-01{
+        display:none !important;
+    }
+}

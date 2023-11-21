@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Imagen de fondo en iniciar sesion*/
+#fondo{
+    min-height: 100vh;
+    background-image: url(../img/ninos-en-clase.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: -10;
+}
+
+#fondo::before{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/*formulario para iniciar sesion*/
+
+.img_portal{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 5px;
+}
+
+/*Carrosa*/
+
+.img_car{
+    height: 40rem;
+}
+
+.fondo-img{
+    min-height: 100vh;
+    background-image: url(../img/prueba.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: -10;
+}
